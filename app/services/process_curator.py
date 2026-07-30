@@ -66,7 +66,7 @@ def curate_digests(hours: int = 24) -> dict:
 
 
 if __name__ == "__main__":
-    result = curate_digests(hours=100)
+    result = curate_digests(hours=24)
     print(f"\n=== Curation Results ===")
     print(f"Total digests: {result['total']}")
     print(f"Ranked: {result['ranked']}")
