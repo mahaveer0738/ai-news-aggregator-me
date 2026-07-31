@@ -16,6 +16,39 @@ An end-to-end AI-powered news aggregation platform that automatically collects t
 The project is designed with a modular architecture, making it easy to extend with additional news sources, AI models, databases, or delivery channels. It demonstrates the practical integration of Large Language Models (LLMs), RSS feeds, structured data processing, database management, and automated email generation within a production-style workflow.
 
 ---
+# Newsletter Preview
+
+## Daily AI Newsletter
+
+### Newsletter Overview
+
+<p align="center">
+    <img src="images/newsletter-overview.png" width="900" alt="AI Newsletter">
+</p>
+
+---
+
+### Top Articles Section
+
+<p align="center">
+    <img src="images/top-articles.png" width="900" alt="Top Articles">
+</p>
+
+---
+## Table of Contents
+
+- Features
+- Newsletter Preview
+- Architecture
+- Technology Stack
+- Project Structure
+- Installation
+- Configuration
+- Usage
+- Future Improvements
+- License
+
+---
 
 ## Features
 
@@ -496,27 +529,6 @@ The generated newsletter contains:
 
 ---
 
-# Screenshots
-
-## Daily AI Newsletter
-
-> Replace the image paths below with your actual screenshot locations.
-
-### Newsletter Overview
-
-<p align="center">
-    <img src="images/newsletter-overview.png" width="900" alt="AI Newsletter">
-</p>
-
----
-
-### Top Articles Section
-
-<p align="center">
-    <img src="images/top-articles.png" width="900" alt="Top Articles">
-</p>
-
----
 
 # Key Highlights
 
@@ -528,3 +540,102 @@ The generated newsletter contains:
 - MySQL-backed persistent storage.
 - Production-ready project structure.
 - Easily extensible with additional news sources and AI providers.
+
+---
+
+# 🚀 Future Enhancements
+
+The project has been designed with extensibility in mind. Planned improvements include:
+
+- Multi-user support with personalized AI news digests.
+- User authentication and profile management.
+- Category-based newsletters (AI, Technology, Finance, Politics, Sports, etc.).
+- Automated scheduling using Render Cron Jobs or GitHub Actions.
+- Docker containerization for simplified deployment.
+- REST API for external integrations.
+- Interactive web dashboard for viewing and managing newsletters.
+- Admin analytics and newsletter performance tracking.
+- Slack and Discord notification support.
+- Semantic search using Vector Databases.
+- Retrieval-Augmented Generation (RAG) for enhanced news summarization.
+- Support for additional LLM providers such as OpenAI and Anthropic.
+- Document ingestion using Docling for AI-powered document analysis.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve this project:
+
+1. Fork the repository.
+2. Create a new feature branch.
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Add your feature"
+```
+
+4. Push to your fork.
+
+```bash
+git push origin feature/your-feature-name
+```
+
+5. Open a Pull Request.
+
+Please ensure that your code follows the existing project structure and coding style.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this project under the terms of the MIT License.
+
+See the `LICENSE` file for more information.
+
+---
+
+# 🙏 Acknowledgements
+
+This project was inspired by the growing need for intelligent news aggregation using Large Language Models.
+
+Special thanks to the open-source community and the following technologies:
+
+- Google Gemini
+- SQLAlchemy
+- Pydantic
+- Feedparser
+- YouTube Transcript API
+- MySQL
+- Python
+
+---
+
+# 👨‍💻 Author
+
+**Mahaveer Regar**
+
+B.Tech Electronics & Communication Engineering  
+Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat
+
+- GitHub: https://github.com/mahaveer0738
+- LinkedIn: *(Add your LinkedIn profile here)*
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
+
+It helps others discover the project and motivates further development.
+
+---
