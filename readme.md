@@ -628,7 +628,7 @@ B.Tech Electronics & Communication Engineering
 Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat
 
 - GitHub: https://github.com/mahaveer0738
-- LinkedIn: *(Add your LinkedIn profile here)*
+- LinkedIn: https://www.linkedin.com/in/mahaveer-regar-646702380/
 
 ---
 
