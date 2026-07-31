@@ -1,0 +1,11 @@
+google-genai
+SQLAlchemy
+pydantic
+python-dotenv
+feedparser
+youtube-transcript-api
+markdown
+mysql-connector-python
+requests
+beautifulsoup4
+lxml
