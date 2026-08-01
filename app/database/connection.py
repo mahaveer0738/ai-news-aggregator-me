@@ -7,6 +7,11 @@ load_dotenv()
 
 
 def get_database_url() -> str:
+    database_url = os.getenv("DATABASE_URL")
+
+    if database_url:
+        return database_url
+
     user = os.getenv("MYSQL_USER", "root")
     password = os.getenv("MYSQL_PASSWORD", "")
     host = os.getenv("MYSQL_HOST", "localhost")
