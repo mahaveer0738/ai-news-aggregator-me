@@ -1,21 +1,21 @@
-from app.daily_runner import run_daily_pipeline
+import uvicorn
+import sys
 
-
-def main(hours: int = 24, top_n: int = 10):
-    return run_daily_pipeline(hours=hours, top_n=top_n)
-
+def main():
+    """
+    Main entry point for the production-ready AI News Aggregator.
+    This starts the FastAPI application using Uvicorn.
+    """
+    # Allows passing port as an argument, defaults to 8000
+    port = 8000
+    if len(sys.argv) > 1:
+        try:
+            port = int(sys.argv[1])
+        except ValueError:
+            pass
+            
+    print(f"Starting AI News Aggregator API on port {port}...")
+    uvicorn.run("app.api.main:app", host="0.0.0.0", port=port, reload=True)
 
 if __name__ == "__main__":
-    import sys
-    
-    hours = 24
-    top_n = 10
-    
-    if len(sys.argv) > 1:
-        hours = int(sys.argv[1])
-    if len(sys.argv) > 2:
-        top_n = int(sys.argv[2])
-    
-    result = main(hours=hours, top_n=top_n)
-    exit(0 if result["success"] else 1)
-
+    main()

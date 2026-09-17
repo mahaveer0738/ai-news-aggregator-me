@@ -11,3 +11,13 @@ beautifulsoup4
 lxml
 PyMySQL
 resend
+fastapi
+uvicorn
+langchain
+langchain-community
+langgraph
+langchain-google-genai
+chromadb
+duckduckgo-search
+wikipedia
+arxiv
